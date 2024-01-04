@@ -1,0 +1,92 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial=1.0">
+    <title>Student Account</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="icon" type="image/png" href="student.png">
+    <a href="https://www.flaticon.com/free-icons/entreprenuer" title="entreprenuer icons">Entreprenuer icons created by manshagraphics - Flaticon</a>
+
+</head>
+<body>
+    <div>
+    <h1>STUDENT DATA</h1>
+    <div class="boxbord" id="box">
+
+        <input id="name" type="text" placeholder="Name" />
+
+        <input id="reg" type="text" placeholder="Register No" />
+
+        <input id="mail" type="text" placeholder="Mail Id" />
+
+        <input id="ph" type="tel" placeholder="Phone No" />
+
+        <input id="dob" type="date" placeholder="Date of Birth" id="dob" />
+
+        <input id="age" type="number" placeholder="Age" />
+
+        <select id="prog">
+            <option>B-Tech</option>
+            <option>M-Tech</option>
+            <option>MBA</option>
+        </select>
+
+        <button id="b" onclick="disp()">SUBMIT</button>
+
+    </div>
+    </div>
+
+    <div id="conf">
+    <h1>CONFIRMATION</h1>
+        <div class="boxbord" id="box1">
+
+        <h2>Name :</h2>
+        <h3 id="name1"></h3>
+
+        <h2>Reg.No :</h2>
+        <h3 id="reg1"></h3>
+
+        <h2 id="m">Mail :</h2>
+        <h3 id="mail1"></h3>
+
+        <h2>Phone No :</h2>
+        <h3 id="ph1"></h3>
+
+        <h2>DOB :</h2>
+        <h3 id="dob1"></h3>
+
+        <h2>Age :</h2>
+        <h3 id="age1"></h3>
+
+        <h2>Program :</h2>
+        <h3 id="prog1"></h3>
+
+        <button id="b1" onclick="showp()">CONFIRM</button>
+
+    </div>
+    </div>
+
+    <div id="pas">
+
+        <h1>PASSWORD</h1>
+
+        <div class="boxbord" id="box2">
+
+            <input class="p" id="pass" type="password" placeholder="Enter Password" />
+            <input class="p" id="pass1" type="password" placeholder="Renter Password" />
+            
+            <button id="b2" onclick="checkpas()">CONFIRM PASSWORD</button>
+
+        </div>
+
+    </div>
+
+    <div class="boxbord" id="box3">
+        <h2> The Student Account has been created succesfully !!!</h2>
+    </div>
+
+    <br>
+</body>
+
+</html>

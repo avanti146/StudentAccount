@@ -1,0 +1,177 @@
+a{
+    color:rgb(65, 11, 65) ;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom,rgb(65, 11, 65),rgb(116, 21, 116),rgb(75, 75, 175),rgb(9, 9, 68));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Student Data block*/
+
+h1 {
+    color: black;
+    text-shadow: 3px 3px 2px rgb(97, 55, 136);
+    text-align: center;
+    margin-top: 50px;
+}
+.boxbord{
+    text-align: center;
+    display: block;
+    padding-top: 40px;
+    margin: auto;
+    margin-bottom: 70px;
+    box-shadow: 10px 10px 10px rgb(19,19,19),-10px -10px 10px rgb(19, 19, 19);
+}
+
+#box {
+    width: 400px;
+    height: 580px;
+}
+
+#box input{
+    display:block;
+    margin: 25px auto;
+}
+
+input {
+    color: black;
+    height: 35px;
+    background: fixed;
+    border: dotted 3px;
+    border-color: black;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+input:hover{
+    box-shadow: 0px 0px 70px black;
+}
+
+::placeholder {
+    color: rgb(19, 19, 19);
+}
+
+    input:focus {
+        outline: 2px black;
+    }
+
+#prog {
+    display:block;
+    margin: 25px auto;
+    width: 125px;
+    height: 35px;
+    color: black;
+    background: fixed;
+    border: dotted 3px;
+    border-color: black;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+#prog:hover{
+    box-shadow: 0px 0px 70px black;
+}
+
+    #prog:focus {
+        outline: 2px black;
+    }
+
+    option {
+        background-color: rgb(116, 21, 116);
+        color: black;
+        border-radius: 10px;
+    }
+
+button {
+   
+    color: black;
+    text-shadow: 3px 3px 2px rgb(97, 55, 136);
+    width: 120px;
+    height: 40px;
+    background: fixed;
+    border: double 3px;
+    border-color: black;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+    button:hover {
+        box-shadow: 0px 0px 90px black;
+    }
+
+
+/*Confirmation block*/
+
+#conf {
+    display: none;
+}
+
+#box1 {
+    width: 500px;
+    height: 930px;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 3px 3px 2px rgb(97, 55, 136),-3px -3px 2px rgb(53, 53, 125);
+    color: black;
+}
+
+h3 {
+    color: black;
+    height: 35px;
+    width: 230px;
+    background: fixed;
+    border: dotted 3px;
+    border-color: black;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+    font-size: 19px;
+    text-align: center;
+    margin: auto;
+}
+#b1 {
+    margin-top: 48px;
+    width: 180px;
+    height: 50px;
+}
+
+/*Password block*/
+
+#pas{
+    display:none;
+}
+
+#box2{
+    width:300px;
+    height:300px;
+    
+}
+
+.p {
+    margin: 20px auto;
+}
+
+#b2 {
+    height: 70px;
+    width: 150px;
+}
+
+/*Succes Message block*/
+
+#box3{
+    width: 300px;
+    height: 200px;
+    display:none;
+}
