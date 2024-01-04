@@ -1,11 +1,11 @@
 a{
-    color:rgb(65, 11, 65) ;
+    color:rgb(65, 12, 49) ;
 }
 
 body {
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom,rgb(65, 11, 65),rgb(116, 21, 116),rgb(75, 75, 175),rgb(9, 9, 68));
+    background: linear-gradient(45deg ,black,rgb(48, 7, 45) ,rgb(77, 12, 54),rgb(141, 28, 64),rgb(129, 35, 89),rgb(215, 78, 130),rgb(231, 133, 167),white);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -14,22 +14,21 @@ body {
 
 h1 {
     color: black;
-    text-shadow: 3px 3px 2px rgb(97, 55, 136);
+    text-shadow: 0px 0px 5px black;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .boxbord{
+    height:auto;
+    width: 40%;
     text-align: center;
     display: block;
     padding-top: 40px;
+    border-radius: 20px;
     margin: auto;
     margin-bottom: 70px;
-    box-shadow: 10px 10px 10px rgb(19,19,19),-10px -10px 10px rgb(19, 19, 19);
-}
-
-#box {
-    width: 400px;
-    height: 580px;
+    box-shadow: 0px 0px 20px rgb(19,19,19);
 }
 
 #box input{
@@ -84,7 +83,7 @@ input:hover{
     }
 
     option {
-        background-color: rgb(116, 21, 116);
+        background-color: rgb(215, 78, 130);
         color: black;
         border-radius: 10px;
     }
@@ -92,18 +91,19 @@ input:hover{
 button {
    
     color: black;
-    text-shadow: 3px 3px 2px rgb(97, 55, 136);
+    text-shadow: 0px 0px 3px black;
     width: 120px;
     height: 40px;
     background: fixed;
     border: double 3px;
     border-color: black;
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 15px black;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
     text-align: center;
     margin-top: 35px;
+    margin-bottom: 35px;
 }
 
     button:hover {
@@ -117,15 +117,11 @@ button {
     display: none;
 }
 
-#box1 {
-    width: 500px;
-    height: 930px;
-}
-
 h2 {
     text-align: center;
-    text-shadow: 3px 3px 2px rgb(97, 55, 136),-3px -3px 2px rgb(53, 53, 125);
+    text-shadow: 3px 3px 2px black;
     color: black;
+    text-shadow: 0px 0px 3px black;
 }
 
 h3 {
